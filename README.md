@@ -5,6 +5,17 @@ This Plugin use [LeaderF](https://github.com/Yggdroot/LeaderF) to display all ct
 
 This plugin is **only tested on vim**. There is some code to make the plugin compatible with nvim, but I do not test it and don't know if it works.
 
+Screenshots
+-----------
+
+`:LeaderfColorPanel`
+
+![buffer][1]
+
+`:LeaderfColorPanel --popup`
+
+![popup][2]
+
 Installation
 -----------
 
@@ -44,17 +55,6 @@ let g:Lf_ColorPanel_cols = 12
 let g:Lf_ColorPanel_rows = 16
 let g:Lf_ColorPanel_str = 'xxx'
 ```
-
-Screenshots
------------
-
-`:LeaderfColorPanel`
-
-![buffer][1]
-
-`:LeaderfColorPanel --popup`
-
-![popup][2]
 
 Mappings
 
