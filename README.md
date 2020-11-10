@@ -3,6 +3,8 @@ LeaderF-ColorPanel
 
 This Plugin use [LeaderF](https://github.com/Yggdroot/LeaderF) to display all cterm colors.
 
+This plugin is **only tested on vim**. There is some code to make the plugin compatible with nvim, but I do not test it and don't know if it works.
+
 Installation
 -----------
 
@@ -32,6 +34,16 @@ specific arguments:
   --str <STR>           string to be shown in panel
 ```
 
+Global setting
+-------------
+
+You can set the `cols`, `rows` and `str` globally.
+
+```vim
+let g:Lf_ColorPanel_cols = 12
+let g:Lf_ColorPanel_rows = 16
+let g:Lf_ColorPanel_str = 'xxx'
+```
 
 Screenshots
 -----------
